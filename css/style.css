@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 70px;
+}
+
+.menu-button{
+    padding: 0;
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo{
+    margin-right: 59px;
+}
+
+.menu-line{
+    display: block;
+    border-radius: 20px;
+    width: 20px;
+    height: 3px;
+    background: #1F2022;
+}
+
+.input-group{
+    background: #EBEBEB;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    max-width: 830px;
+    width: 50%;
+}
+
+.input-search{
+    background-color: transparent;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.button-search{
+    height: 19px;
+    width: 19px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icons{
+    fill: black;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icons-link{
+    text-decoration: none;
+    opacity: 0.24;
+}
+
+.icons-link:hover{
+    opacity: 0.7;
+}
+
+.icons-link:not(:last-child){
+    margin-right: 50px;
+}
+
+.user{
+    margin-left: 45px;
+}
+
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
